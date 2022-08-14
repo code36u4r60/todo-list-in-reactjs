@@ -1,0 +1,48 @@
+.tasks-board {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tasks-board header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.created-tasks,
+.complete-tasks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.0625rem;
+}
+
+.created-tasks > span,
+.complete-tasks > span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 0.9375rem;
+
+  background: var(--gray-400);
+  color: var(--gray-200);
+  padding: 2px 8px;
+  border-radius: 9999px;
+}
+
+.created-tasks {
+  color: var(--blue);
+}
+
+.complete-tasks {
+  color: var(--purple);
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
