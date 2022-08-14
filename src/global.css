@@ -45,3 +45,9 @@ button {
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
